@@ -38,7 +38,21 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
 #### Ranking Hospitals in All States
 - Write a function `rankall` that takes two arguments: an outcome name (outcome) and a hospital ranking (num).
 - The function returns a 2-column data frame containing the hospital in each state with the specified ranking for the given outcome.
-- Make sure a value is returned for every state even if it has no entry specified in the hospital ranking (num). The value returned in such a case is `NA`.
+- Make sure a value is returned for every state even if it has no entry specified in the hospital ranking (num). The value returned in such a case is `NA`. For example the call
+  head(rankall("heart attack", 20), 10)
+returns
+hospital                          state
+<NA>                              AK
+D W MCMILLAN MEMORIAL HOSPITAL    AL
+ARKANSAS METHODIST MEDICAL CENTER AR
+<NA>                              AZ
+JOHN C LINCOLN DEER VALLEY HOSPITAL AZ
+SHERMAN OAKS HOSPITAL              CA
+SKY RIDGE MEDICAL CENTER           CO
+MIDSTATE MEDICAL CENTER            CT
+<NA>                              DC
+<NA>                              DE
+
 - The ranking of the hospital- argument `num` in the function can take values `best`, `worst` or an `integer` indicating the ranking (small numbers are better).
 - Hospitals that do not have data on a particular outcome should be excluded from the set of hospitals when deciding the rankings.
 - **Handling ties:** The `rankall` function should handle ties in the 30-day mortality rates in the same way that the `rankhospital` function handles ties.
