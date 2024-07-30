@@ -1,4 +1,4 @@
-## User-defined Functions to Rank Hospitals based on Outcome: R Programming   
+## User-Defined Functions to Rank Hospitals based on Outcome: R Programming   
 
 ### Introduction
 This project involves writing functions in R to rank hospitals based on various conditions, such as specific health outcomes like heart attack within a state and overall ranking as well.
