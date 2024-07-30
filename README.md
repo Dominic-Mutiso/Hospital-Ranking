@@ -2,7 +2,7 @@
 
 ### Introduction
 This project involves writing functions in R to rank hospitals based on various conditions, such as specific health outcomes like heart attack within a state and overall ranking as well.
-This assignment involves working with data from the Hospital Compare website run by the U.S. Department of Health and Human Services. The dataset contains information about the quality of care at over 4,000 Medicare-certified hospitals in the U.S., focusing on 30-day mortality and readmission rates for heart attacks, heart failure, and pneumonia.
+The assignment involves working with data from the Hospital Compare website run by the U.S. Department of Health and Human Services. The dataset contains information about the quality of care at over 4,000 Medicare-certified hospitals in the U.S., focusing on 30-day mortality and readmission rates for heart attacks, heart failure, and pneumonia.
 
 ### Data
 The Hospital Compare web site contains a lot of data but we will look at the following two files for this assignment
