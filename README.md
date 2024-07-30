@@ -42,17 +42,10 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
     ```r
   head(rankall("heart attack", 20), 10)
 returns
-##                       hospital state
-##                      <NA>    AK
-## D W MCMILLAN MEMORIAL HOSPITAL AL
-## ARKANSAS METHODIST MEDICAL CENTER AR
-##                      <NA>    AZ
-## JOHN C LINCOLN DEER VALLEY HOSPITAL AZ
-## SHERMAN OAKS HOSPITAL              CA
-## SKY RIDGE MEDICAL CENTER           CO
-## MIDSTATE MEDICAL CENTER            CT
-##                      <NA>    DC
-##                      <NA>    DE
+| Hospital                                      | State |
+|-----------------------------------------------|-------|
+| <NA>                                          | AK    |
+| D W MCMILLAN MEMORIAL HOSPITAL AL---in readme|       |
 
 
 - The ranking of the hospital- argument `num` in the function can take values `best`, `worst` or an `integer` indicating the ranking (small numbers are better).
