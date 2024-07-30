@@ -25,8 +25,7 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
 - The function returns the name of the hospital with the specified ranking for the given outcome in that state. For example, the call
      ```r
   rankhospital("TX", "heart failure", 4)
-  **rankhospital("TX", heart failure", 4)**
-  **[1] "DETAR HOSPITAL NAVARO"**
+  [1] "DETAR HOSPITAL NAVARO"
 - The ranking of the hospital- argument `num` in the function can take values `best`, `worst` or an `integer` indicating the ranking (small numbers are better)
 - If the number given by num is larger than the number of hostpitals in that state, then the function should return **NA**.
 - Hospitals that do not have data on a particular outcome should be excluded from the set of hospitals when deciding the rankings.
