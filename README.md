@@ -14,15 +14,20 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
 #### Plot the 30-day Mortality Rates for Heart Attack
 - Read the data from `outcome-of-care-measures.csv`.
 - Plot a histogram of the 30-day death rates from heart attacks.
+-Sample output from the function: `best("TX", "heart attack")`
 
 #### Finding the Best Hospital in a State
 - Write a function `best` that takes two arguments: the abbreviated name of a state and an outcome name.
 - The function returns the name of the hospital with the lowest 30-day mortality for the specified outcome in that state.
 
 #### Ranking Hospitals by Outcome in a State
-- Write a function `rankhospital` that takes three arguments: the abbreviated name of a state, an outcome, and the ranking of a hospital in that state for that outcome.
-- The ranking of the hospital- argument `num` in the functiontakes values `best`, `worst` or an `integer`  indicating the ranking (small numbers are better)
+- Write a function `rankhospital` that takes three arguments: the abbreviated name of a state (state), an outcome (outcome), and the ranking of a hospital in that state for that outcome (num).
 - The function returns the name of the hospital with the specified ranking for the given outcome in that state.
+- The ranking of the hospital- argument `num` in the function can take values `best`, `worst` or an `integer` indicating the ranking (small numbers are better)
+- If the number given by num is larger than the number of hostpitals in that state, then the function should return `NA`.
+- Hospitals that do not have data on a particular outcome should be excluded from the set of hospitals when deciding the rankings.
+- **Handling ties:** If multiple hospitals have the same 30-day mortality rate for a given cause of death, those ties should be broken by using the hospital name whose letter of alphabet appear first.
+
 
 #### Ranking Hospitals in All States
 - Write a function `rankall` that takes two arguments: an outcome name and a hospital ranking.
