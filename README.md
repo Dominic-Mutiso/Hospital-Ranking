@@ -1,4 +1,4 @@
-## Programming Assignment 3: R Programming
+## Hospital Ranking based on State and Outcome: R Programming
 
 ### Introduction
 This assignment involves working with data from the Hospital Compare website run by the U.S. Department of Health and Human Services. The dataset contains information about the quality of care at over 4,000 Medicare-certified hospitals in the U.S., focusing on 30-day mortality and readmission rates for heart attacks, heart failure, and pneumonia.
@@ -40,7 +40,7 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
 - The function returns a 2-column data frame containing the hospital in each state with the specified ranking for the given outcome.
 - Make sure a value is returned for every state even if it has no entry specified in the hospital ranking (num). The value returned in such a case is `NA`. For example the call
     ```r
-  head(rankall("heart attack", 20), 10)
+  head(rankall("heart attack", 20), 2)
 returns
 | Hospital                                      | State |
 |-----------------------------------------------|-------|
