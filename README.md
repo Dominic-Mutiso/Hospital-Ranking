@@ -22,9 +22,9 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
 
 #### Ranking Hospitals by Outcome in a State
 - Write a function `rankhospital` that takes three arguments: the abbreviated name of a state (state), an outcome (outcome), and the ranking of a hospital in that state for that outcome (num).
-- The function returns the name of the hospital with the specified ranking for the given outcome in that state.
+- The function returns the name of the hospital with the specified ranking for the given outcome in that state. For example, the call **rankhospital("TX", heart failure", 4)**
 - The ranking of the hospital- argument `num` in the function can take values `best`, `worst` or an `integer` indicating the ranking (small numbers are better)
-- If the number given by num is larger than the number of hostpitals in that state, then the function should return `NA`.
+- If the number given by num is larger than the number of hostpitals in that state, then the function should return **NA**.
 - Hospitals that do not have data on a particular outcome should be excluded from the set of hospitals when deciding the rankings.
 - **Handling ties:** If multiple hospitals have the same 30-day mortality rate for a given cause of death, those ties should be broken by using the hospital name whose letter of alphabet appear first.
 
