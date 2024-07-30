@@ -45,7 +45,7 @@ returns
 | Hospital                                      | State |
 |-----------------------------------------------|-------|
 | NA                                            | AK    |
-| D W MCMILLAN MEMORIAL HOSPITAL                |       |
+| D W MCMILLAN MEMORIAL HOSPITAL                | AL     |
 
 
 - The ranking of the hospital- argument `num` in the function can take values `best`, `worst` or an `integer` indicating the ranking (small numbers are better).
