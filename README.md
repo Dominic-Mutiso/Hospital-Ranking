@@ -4,7 +4,7 @@
 This assignment involves working with data from the Hospital Compare website run by the U.S. Department of Health and Human Services. The dataset contains information about the quality of care at over 4,000 Medicare-certified hospitals in the U.S., focusing on 30-day mortality and readmission rates for heart attacks, heart failure, and pneumonia.
 
 ### Data
-The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
+The Hospital Compare web site contains a lot of data but we will look at the following three files for this assignment
 - `outcome-of-care-measures.csv`: Information about 30-day mortality and readmission rates for heart attacks, heart failure, and pneumonia.
 - `hospital-data.csv`: Information about each hospital.
 - `Hospital_Revised_Flatfiles.pdf`: Descriptions of the variables in each file.
