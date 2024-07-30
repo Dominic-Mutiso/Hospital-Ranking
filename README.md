@@ -27,7 +27,7 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
   rankhospital("TX", "heart failure", 4)
   [1] "DETAR HOSPITAL NAVARRO"
 
-  rankhospital("TX", "heart attack", 5000)
+  rankhospital("MN", "heart attack", 5000)
   [1] NA
 - The ranking of the hospital- argument `num` in the function can take values `best`, `worst` or an `integer` indicating the ranking (small numbers are better)
 - If the number given by num is larger than the number of hostpitals in that state, then the function should return **NA**.
@@ -36,7 +36,11 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
 
 
 #### Ranking Hospitals in All States
-- Write a function `rankall` that takes two arguments: an outcome name and a hospital ranking.
+- Write a function `rankall` that takes two arguments: an outcome name (outcome) and a hospital ranking (num).
 - The function returns a 2-column data frame containing the hospital in each state with the specified ranking for the given outcome.
+- Make sure a value is returned for every state even if it has no entry specified in the hospital ranking (num). The value returned in such a case is `NA`.
+- The ranking of the hospital- argument `num` in the function can take values `best`, `worst` or an `integer` indicating the ranking (small numbers are better).
+- Hospitals that do not have data on a particular outcome should be excluded from the set of hospitals when deciding the rankings.
+- **Handling ties:** The `rankall` function should handle ties in the 30-day mortality rates in the same way that the `rankhospital` function handles ties.
 
 
