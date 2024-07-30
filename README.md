@@ -44,8 +44,8 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
 returns
 | Hospital                                      | State |
 |-----------------------------------------------|-------|
-| <NA>                                          | AK    |
-| D W MCMILLAN MEMORIAL HOSPITAL AL---in readme|       |
+| NA                                            | AK    |
+| D W MCMILLAN MEMORIAL HOSPITAL                |       |
 
 
 - The ranking of the hospital- argument `num` in the function can take values `best`, `worst` or an `integer` indicating the ranking (small numbers are better).
