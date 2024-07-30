@@ -23,6 +23,8 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
 #### Ranking Hospitals by Outcome in a State
 - Write a function `rankhospital` that takes three arguments: the abbreviated name of a state (state), an outcome (outcome), and the ranking of a hospital in that state for that outcome (num).
 - The function returns the name of the hospital with the specified ranking for the given outcome in that state. For example, the call
+     ```r
+  rankhospital("TX", "heart failure", 4)
   **rankhospital("TX", heart failure", 4)**
   **[1] "DETAR HOSPITAL NAVARO"**
 - The ranking of the hospital- argument `num` in the function can take values `best`, `worst` or an `integer` indicating the ranking (small numbers are better)
