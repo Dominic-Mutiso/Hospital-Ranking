@@ -21,35 +21,11 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
 
 #### Ranking Hospitals by Outcome in a State
 - Write a function `rankhospital` that takes three arguments: the abbreviated name of a state, an outcome, and the ranking of a hospital in that state for that outcome.
+- The ranking of the hospital- argument `num` in the functiontakes values `best`, `worst` or an `integer`  indicating the ranking (small numbers are better)
 - The function returns the name of the hospital with the specified ranking for the given outcome in that state.
 
 #### Ranking Hospitals in All States
 - Write a function `rankall` that takes two arguments: an outcome name and a hospital ranking.
 - The function returns a 2-column data frame containing the hospital in each state with the specified ranking for the given outcome.
 
-### Function Templates
 
-#### best Function Template
-```r
-best <- function(state, outcome) {
-  ## Read outcome data
-  ## Check that state and outcome are valid
-  ## Return hospital name in that state with lowest 30-day death rate
-}
-rankhospital Function Template
-r
-Copy code
-rankhospital <- function(state, outcome, num = "best") {
-  ## Read outcome data
-  ## Check that state and outcome are valid
-  ## Return hospital name in that state with the given rank
-}
-rankall Function Template
-r
-Copy code
-rankall <- function(outcome, num = "best") {
-  ## Read outcome data
-  ## Check that state and outcome are valid
-  ## For each state, find the hospital of the given rank
-  ## Return a data frame with the hospital names and the state name
-}
