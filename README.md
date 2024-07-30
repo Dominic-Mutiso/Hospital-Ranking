@@ -39,6 +39,7 @@ The dataset is provided in the file `ProgAssignment3-data.zip`, which contains:
 - Write a function `rankall` that takes two arguments: an outcome name (outcome) and a hospital ranking (num).
 - The function returns a 2-column data frame containing the hospital in each state with the specified ranking for the given outcome.
 - Make sure a value is returned for every state even if it has no entry specified in the hospital ranking (num). The value returned in such a case is `NA`. For example the call
+    ```r
   head(rankall("heart attack", 20), 10)
 returns
 ##                       hospital state
